@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RevoU_Project</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header id="navigation-bar">
+        <h3 id="logo">Welcome to Luas Segitiga</h3>
+        <nav class="navigation">
+            <a href="keliling_segitiga.html">Keliling Segitika</a>
+        </nav>
+    </header>
+
+    <hr />
+
+    <main>
+        <h2>Luas Segitiga</h2>
+        <img src="img/luas.jpg" />
+        <h4>Rumus Luas Segitiga yaitu:</h4>
+        <h3>L = 1/2 x a x t</h3>
+        <h4>Di mana:</h4>
+        <h4>L = Luas</h4>
+        <h4>a = Panjang Alas</h4>
+        <h4>t = Tinggi</h4>
+
+        <hr />
+
+        <h1>Hitung Luas Segitiga</h1>
+    </main>
+
+    <section class="input-luas-section">
+        <label for="" id="label-panjang-alas">Panjang Alas</label>
+        <input type="number" id="input_panjang_alas" class="katik-input" />
+
+        <label for="" id="label-tinggi">tinggi</label>
+        <input type="number" id="input_tinggi" class="katik-input" />
+
+        <div id="output_luas"></div>
+        <div class="buttons_luas"></div>
+
+        <button id="hitung_luas" onclick="luas()">Hitung</button>
+        <button id="reset_luas" onclick=" reset_luas()">Reset</button>
+
+    </section>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
